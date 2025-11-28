@@ -5,26 +5,22 @@
 
 struct board
 {
-    FriendlySquare PlayerBoard[10][10] = {{FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare()}, 
-                                          {FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare()}, 
-                                          {FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare()}, 
-                                          {FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare()}, 
-                                          {FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare()}, 
-                                          {FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare()}, 
-                                          {FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare()}, 
-                                          {FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare()}, 
-                                          {FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare()}, 
-                                          {FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare(), FriendlySquare()}};
-    EnemySquare EnemeyBoard[10][10] =    {{EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(),}, 
-                                          {EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(),}, 
-                                          {EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(),}, 
-                                          {EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(),}, 
-                                          {EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(),}, 
-                                          {EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(),}, 
-                                          {EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(),}, 
-                                          {EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(),}, 
-                                          {EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(),}, 
-                                          {EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(),}};
+    EnemySquare EnemeyBoard[100] =    {EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(),
+                                          EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), 
+                                          EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), 
+                                          EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), 
+                                          EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), 
+                                          EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), 
+                                          EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), 
+                                          EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), 
+                                          EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), 
+                                          EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare(), EnemySquare()};
+
+    bool carrierAlive    = true;
+    bool battleshipAlive = true;
+    bool cruiserAlive    = true;
+    bool submarineAlive  = true;
+    bool destroyerAlive  = true;
 };
 
 #endif
