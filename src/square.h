@@ -12,8 +12,9 @@ struct FriendlySquare
 struct EnemySquare
 {
     int test = 0;
-    bool hit;
-    bool ship_hit;
+    bool ship_hit = false;
+    bool ship_sunk = false;
+    bool hit = false;
 };
 
 
