@@ -3,6 +3,6 @@
 
 #include "board.h"
 
-void PrintBoard(board Board);
+void PrintBoard(board &Board);
 
 #endif
