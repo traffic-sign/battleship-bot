@@ -11,3 +11,5 @@ You probably shouldn't. There's almost certainly better bots on github, that A. 
 
 ## can you modify it?
 Yeah, I don't know why you would but the source code is right there!
+
+p.s. I'm going to improve the play, and refactor the code eventually. This was just a quick test that I scrapped together
